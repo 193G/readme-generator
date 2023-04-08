@@ -80,44 +80,44 @@ function writeToFile(answers) {
   
   ## Description
   
-  ${answers.Description}
+  ${answers.description}
   
   ## Installation
   
-  ${answers.Installation}
+  ${answers.installation}
   
   To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
   
   ## Usage
   
-  ${answers.Usage}
+  ${answers.usage}
   
   ## Credits
   
-  ${answers.Credits}
+  ${answers.credits}
   
   ---
   
   ## License
   
-  ${answers.License}
+  ${answers.license}
   
   ## Contribution
   
-  ${answers.Contribution}
+  ${answers.contribution}
   
   ## Repository
   
-  ${answers.Repository}
+  ${answers.repository}
 
   ## Page
   
-  ${answers.Page}
+  ${answers.page}
 
   ## Contact
   
-  ${answers.Contact}
+  ${answers.contact}
 
   ## Questions
   
