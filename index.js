@@ -55,7 +55,7 @@ const questions = [
     }
 ];
 
-// FUNCTIONS
+// Functions
 function writeToFile(answers) {
   console.log(typeof answers.license);
   const template = `# ${answers.title}
@@ -85,10 +85,7 @@ function writeToFile(answers) {
   ## Installation
   
   ${answers.installation}
-  
-  To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-  
   ## Usage
   
   ${answers.usage}
@@ -139,7 +136,7 @@ function licenseBadge(bananas) {
   }
 }
 
-// USER INTERACTION
+// User interaction
 inquirer.prompt([...questions]).then((answers) => {
   const readme = writeToFile(answers);
   fs.writeFile('README.md', readme, 'utf8', (err) => {
